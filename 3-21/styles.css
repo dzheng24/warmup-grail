@@ -1,0 +1,50 @@
+* {
+  color: white;
+  box-sizing: border-box;
+}
+
+:not(p){
+  border: 1px solid black;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+  height: 100vh;
+}
+
+.grid-body {
+  display: grid;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+
+p {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.grid-header {
+  background: rgb(157, 91, 190);
+}
+
+.grid-nav {
+  background: rgb(190, 135, 219);
+}
+
+.grid-main-content {
+  background: rgb(201, 123, 240);
+}
+
+.grid-aside {
+  background: rgb(189, 82, 189)
+}
+
+.grid-footer {
+  background: violet
+}
+
