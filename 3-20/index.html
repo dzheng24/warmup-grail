@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grids</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* grid-column-gap: 1em;
+        grid-row-gap: 1em; */
+        grid-gap: 1em;
+      }
+
+      .wrapper > div {
+        background: #eee;
+        padding: 1em;
+      }
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum a recusandae quam repudiandae cupiditate quod nam voluptatibus tenetur soluta tempore. Fugiat, in assumenda. Cupiditate nemo rerum recusandae ea iusto neque. Eos impedit cupiditate quos ullam necessitatibus similique incidunt, natus tenetur obcaecati? Est ea dicta delectus accusamus. Incidunt aperiam eaque accusamus ea, dolor obcaecati cum illo eius earum, autem accusantium repudiandae voluptate consectetur quis vero ut, numquam quisquam tenetur! Sint aut blanditiis est sed aliquid esse vitae voluptas tenetur iste? Incidunt.
+      </div>
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error vero, cumque facilis et, officia sapiente eius quidem commodi sunt aliquid nulla temporibus distinctio voluptate quos numquam possimus, magnam explicabo nesciunt.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum a recusandae quam repudiandae cupiditate quod nam voluptatibus tenetur soluta tempore. Fugiat, in assumenda. Cupiditate nemo rerum recusandae ea iusto neque. Eos impedit cupiditate quos ullam necessitatibus similique incidunt, natus tenetur obcaecati? Est ea dicta delectus accusamus. Incidunt aperiam eaque accusamus ea, dolor obcaecati cum illo eius earum, autem accusantium repudiandae voluptate consectetur quis vero ut, numquam quisquam tenetur! Sint aut blanditiis est sed aliquid esse vitae voluptas tenetur iste? Incidunt.
+      </div>
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error vero, cumque facilis et, officia sapiente eius quidem commodi sunt aliquid nulla temporibus distinctio voluptate quos numquam possimus, magnam explicabo nesciunt.
+      </div>
+    </div>
+  </body>
+</html>
