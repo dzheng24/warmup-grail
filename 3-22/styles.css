@@ -1,0 +1,49 @@
+*{
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-color: lightgreen;
+  height: 70px;
+}
+
+.float {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  height: 100vh;
+}
+
+.float-nav {
+  background-color: rgb(218, 159, 218);
+  width: 20%;
+}
+
+.float-main {
+  background-color: rgb(146, 235, 235);
+  width: 60%;
+}
+
+.float-aside {
+  background-color: rgb(125, 170, 170);
+  width: 20%;
+}
+
+footer {
+  background-color: pink;
+  height: 70px;
+  float: left;
+  width: 100%;
+}
+
+header, footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
